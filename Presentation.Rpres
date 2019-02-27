@@ -1,0 +1,26 @@
+Course Project: Shiny Application and Reproducible Pitch
+========================================================
+author: Y.Lu
+date: 2019/02/27
+autosize: true
+
+========================================================
+
+Assignment Requirement
+
+- Write a shiny application 
+- Bullet 2
+- Bullet 3
+
+========================================================
+
+```{r}
+summary(cars)
+```
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```
