@@ -9,18 +9,30 @@ autosize: true
 Assignment Requirement
 
 - Write a shiny application 
-- Bullet 2
-- Bullet 3
+- Make a presentation
 
 ========================================================
+Assignment Introduction
 
-```{r}
-summary(cars)
-```
+I normally do three sports: walking, running and swimming. This app calculates the estimated energy consumption as a result of these three sports. The calorie consumption per hour of these sports are separately about 400, 800, 1200. After filling the hours of each type of sport, the totoal energy consumption can be calculated.
 
-Slide With Plot
+
+
 ========================================================
+Appearance of app
 
-```{r, echo=FALSE}
-plot(cars)
+```{r read_jpeg,echo=FALSE}
+library(jpeg)
+jj=readJPEG('AppAppearance.jpg',native=TRUE)
+plot(1, type="n", xlim=c(50, 850), ylim=c(250, 500))
+rasterImage(jj,50, 250, 850, 500)
 ```
+
+
+========================================================
+App 
+The link of the app and corresponding codes can be found in: 
+br()
+https://github.com/Yao1987/Course9_4_1. 
+
+

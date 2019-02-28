@@ -17,7 +17,7 @@ shinyServer(function(input, output) {
   output$cc_result <- renderText({
     if(input$CalcCalories == 0) ""
     else
-      paste("Your total calories count is: ", values$calories)
+      paste("Your total calories consumption is: ", values$calories)
   })
   
   
